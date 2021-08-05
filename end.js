@@ -1,7 +1,7 @@
 const username = document.querySelector('#username')
 const saveScoreBtn = document.querySelector('#saveScoreBtn')
 const finalScore = document.querySelector('#finalScore')
-const mostRecentScore = document.querySelector('#mostRecentScore')
+const mostRecentScore =localStorage.getItem('mostRecentScore')
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
@@ -20,6 +20,7 @@ savedHighScore = e => {
         score: mostRecentScore,
         name: username.value
     }
+    highScores.push(score)
 
     highScores.sort((a,b) => {
         return b.score - a.score

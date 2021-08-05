@@ -156,13 +156,14 @@ input::placeholder{
         text-shadow:0 0 6px black;
     }
     #question{
-        font-size: 25px;
+        font-size:25px;
         width: 100%;
         height:110px;
         font-family: sans-serif;
         text-align: center;
 
     }
+    
 
 
 } 
