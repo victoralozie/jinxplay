@@ -101,12 +101,12 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'What does IMHO mean?',
-        choice1: 'In My Humble Opinion',
-        choice2: 'In My Hand Over',
-        choice3: 'It\s My Honest Offer',
-        choice4: 'In My Head Over',
-        answer: 1,
+        question: 'From which animal do we obtain bacon from?',
+        choice1: 'sheep',
+        choice2: 'pig',
+        choice3: 'cow',
+        choice4: 'chicken',
+        answer: 2,
     },
     {
         question: 'which flower represents love?',
@@ -125,12 +125,12 @@ let questions = [
         answer: 2,
     },
     {
-            question: 'Alt + tab is a shortcut key used to _?',
-            choice1: 'cut',
-            choice2: 'switch apps',
-            choice3: 'end apps',
-            choice4: 'close apps',
-            answer: 2,
+            question: 'What color is the the planet mars said to be?',
+            choice1: 'white',
+            choice2: 'blue',
+            choice3: 'red',
+            choice4: 'orange',
+            answer: 3,
         },
     {
         question: 'Which birds make a HOOT sound?',
@@ -164,9 +164,12 @@ let questions = [
         choice4: 'french',
         answer: 3,
     },
+
+        
+    
     {
         question: 'What city is the Eiffel Tower located in?',
-        choice1: 'New York City',
+        choice1: 'New York',
         choice2: 'London',
         choice3: 'Paris',
         choice4: 'Tuscany',
@@ -181,12 +184,12 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'Ctrl+W is a shortcut key used to _?',
-        choice1: 'cut',
-        choice2: 'open some program files',
-        choice3: 'end',
-        choice4: 'close',
-        answer: 3,
+        question: 'Which of these wild forces of nature is commonly referred to as a cyclone?',
+        choice1: 'tornado',
+        choice2: 'earthquake',
+        choice3: 'courtney love',
+        choice4: 'volcanic eruption',
+        answer: 1,
     },
     {
         question: 'In the early 90s? which singer was known as the king of pop',
@@ -205,12 +208,20 @@ let questions = [
         answer: 2,
     },
     {
-        question: ' What are the examples of motherboard slots?',
-        choice1: 'AGS',
-        choice2: 'DEB',
-        choice3: 'PCI',
-        choice4: 'PCIF',
-        answer: 3,
+        question: ' Which animal is known as mans best friend?',
+        choice1: 'horse',
+        choice2: 'Dog',
+        choice3: 'cat',
+        choice4: 'bird',
+        answer: 2,
+    },
+    {
+        question: 'what the hottest continent on Earth?',
+        choice1: 'europe',
+        choice2: 'africa',
+        choice3: 'asia',
+        choice4: 'antarctica',
+        answer: 2,
     },
 ]
 const SCORE_POINTS= 5
